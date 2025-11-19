@@ -34,7 +34,7 @@ app.use(cors());
 
 // Adiciona uma rota para a raiz
 app.get("/", (req: Request, res: Response) => {
-  res.status(200).json({ message: "API Fisioterapia está funcionando!" });
+  res.status(200).json({ message: "API Farmacia está funcionando!" });
 });
 
 app.use("/usuario", userRoutes);
